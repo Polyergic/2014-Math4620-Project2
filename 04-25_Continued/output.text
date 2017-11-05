@@ -1,0 +1,140 @@
+
+n=1
+infinity norm of crout residual: n =  0.000000e+00  =  0.0000000000000000000000000000000000000000  (not iterative)
+infinity norm of gauss residual: n =  0.000000e+00  =  0.0000000000000000000000000000000000000000  (1 iterations: error target reached )
+
+n=2
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (33 iterations: error target reached )
+
+n=3
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (63 iterations: error target reached )
+
+n=4
+infinity norm of crout residual: n =  1.533130e-19  =  0.0000000000000000001533129634530283613714  (not iterative)
+infinity norm of gauss residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (105 iterations: solution stopped changing )
+
+n=5
+infinity norm of crout residual: n =  6.049933e-19  =  0.0000000000000000006049932825763840171795  (not iterative)
+infinity norm of gauss residual: n =  6.049933e-19  =  0.0000000000000000006049932825763840171795  (149 iterations: error target reached )
+
+n=6
+infinity norm of crout residual: n =  4.050935e-19  =  0.0000000000000000004050935070243691371594  (not iterative)
+infinity norm of gauss residual: n =  5.843469e-19  =  0.0000000000000000005843468544870604464148  (209 iterations: solution stopped changing )
+
+n=7
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (266 iterations: error target reached )
+
+n=8
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (341 iterations: error target reached )
+
+n=9
+infinity norm of crout residual: n =  4.232518e-19  =  0.0000000000000000004232517758311332006782  (not iterative)
+infinity norm of gauss residual: n =  5.946701e-19  =  0.0000000000000000005946700685317222317972  (426 iterations: solution stopped changing )
+
+n=10
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  5.852733e-19  =  0.0000000000000000005852732967731198374106  (514 iterations: solution stopped changing )
+
+n=20
+infinity norm of crout residual: n =  3.809398e-19  =  0.0000000000000000003809398331378207290532  (not iterative)
+infinity norm of gauss residual: n =  4.284399e-19  =  0.0000000000000000004284398526330657902550  (1821 iterations: solution stopped changing )
+
+n=30
+infinity norm of crout residual: n =  5.965114e-19  =  0.0000000000000000005965113725752652714014  (not iterative)
+infinity norm of gauss residual: n =  8.483895e-19  =  0.0000000000000000008483895234588873044551  (3918 iterations: solution stopped changing )
+
+n=40
+infinity norm of crout residual: n =  5.786178e-19  =  0.0000000000000000005786178015645181767386  (not iterative)
+infinity norm of gauss residual: n =  8.249555e-19  =  0.0000000000000000008249554967052600304260  (6751 iterations: solution stopped changing )
+
+n=50
+infinity norm of crout residual: n =  8.251544e-19  =  0.0000000000000000008251544336425790335818  (not iterative)
+infinity norm of gauss residual: n =  8.169765e-19  =  0.0000000000000000008169765125165735254742  (10142 iterations: error target reached )
+
+n=60
+infinity norm of crout residual: n =  6.809206e-19  =  0.0000000000000000006809206045929327039698  (not iterative)
+infinity norm of gauss residual: n =  8.541024e-19  =  0.0000000000000000008541024463594847900916  (14550 iterations: solution stopped changing )
+
+n=70
+infinity norm of crout residual: n =  5.682849e-19  =  0.0000000000000000005682848681476588932810  (not iterative)
+infinity norm of gauss residual: n =  8.668024e-19  =  0.0000000000000000008668023570991645622408  (19563 iterations: solution stopped changing )
+
+n=80
+infinity norm of crout residual: n =  6.268159e-19  =  0.0000000000000000006268158580991814241695  (not iterative)
+infinity norm of gauss residual: n =  8.648154e-19  =  0.0000000000000000008648153658702356206373  (25388 iterations: solution stopped changing )
+
+n=90
+infinity norm of crout residual: n =  5.991788e-19  =  0.0000000000000000005991788232555956473960  (not iterative)
+infinity norm of gauss residual: n =  8.353817e-19  =  0.0000000000000000008353816947361846677539  (31816 iterations: solution stopped changing )
+
+n=100
+infinity norm of crout residual: n =  7.260861e-19  =  0.0000000000000000007260861136043999828162  (not iterative)
+infinity norm of gauss residual: n =  8.358362e-19  =  0.0000000000000000008358362304827825564613  (38907 iterations: solution stopped changing )
+
+n=200
+infinity norm of crout residual: n =  5.877032e-19  =  0.0000000000000000005877032367577223897635  (not iterative)
+infinity norm of gauss residual: n =  8.580870e-19  =  0.0000000000000000008580869947571983311131  (147931 iterations: solution stopped changing )
+
+n=300
+infinity norm of crout residual: n =  8.413462e-19  =  0.0000000000000000008413462437172987969594  (not iterative)
+infinity norm of gauss residual: n =  7.911857e-19  =  0.0000000000000000007911856947170049557993  (317528 iterations: error target reached )
+
+n=400
+infinity norm of crout residual: n =  1.087998e-18  =  0.0000000000000000010879982981869663451233  (not iterative)
+infinity norm of gauss residual: n =  1.031792e-18  =  0.0000000000000000010317920153364931360981  (552891 iterations: error target reached )
+
+n=500
+infinity norm of crout residual: n =  8.576200e-19  =  0.0000000000000000008576200302987794063864  (not iterative)
+infinity norm of gauss residual: n =  8.576200e-19  =  0.0000000000000000008576200302987794063864  (863497 iterations: error target reached )
+
+n=600
+infinity norm of crout residual: n =  8.197848e-19  =  0.0000000000000000008197848080637527437762  (not iterative)
+infinity norm of gauss residual: n =  8.654608e-19  =  0.0000000000000000008654608401861493935517  (1247468 iterations: solution stopped changing )
+
+n=700
+infinity norm of crout residual: n =  9.038501e-19  =  0.0000000000000000009038501159118410301724  (not iterative)
+infinity norm of gauss residual: n =  8.847624e-19  =  0.0000000000000000008847623690298187955337  (1626512 iterations: error target reached )
+
+n=800
+infinity norm of crout residual: n =  9.727375e-19  =  0.0000000000000000009727375273927947466832  (not iterative)
+infinity norm of gauss residual: n =  8.506922e-19  =  0.0000000000000000008506922216183599987269  (2149715 iterations: error target reached )
+
+n=900
+infinity norm of crout residual: n =  8.493565e-19  =  0.0000000000000000008493564591237931679887  (not iterative)
+infinity norm of gauss residual: n =  8.557640e-19  =  0.0000000000000000008557639593344487067167  (2751915 iterations: solution stopped changing )
+
+n=1000
+infinity norm of crout residual: n =  9.667931e-19  =  0.0000000000000000009667930887859394315557  (not iterative)
+infinity norm of gauss residual: n =  9.482745e-19  =  0.0000000000000000009482744846754901405071  (3269433 iterations: error target reached )
+
+n=2000
+infinity norm of crout residual: n =  9.626544e-19  =  0.0000000000000000009626543725694556281520  (not iterative)
+infinity norm of gauss residual: n =  9.563941e-19  =  0.0000000000000000009563941217285920442139  (12395867 iterations: error target reached )
+
+n=3000
+infinity norm of crout residual: n =  9.587243e-19  =  0.0000000000000000009587242674181599679334  (not iterative)
+infinity norm of gauss residual: n =  8.672800e-19  =  0.0000000000000000008672799652018160308621  (27373868 iterations: error target reached )
+
+n=4000
+infinity norm of crout residual: n =  1.162380e-18  =  0.0000000000000000011623795946065191787161  (not iterative)
+infinity norm of gauss residual: n =  1.158071e-18  =  0.0000000000000000011580709666296802576320  (47936167 iterations: error target reached )
+
+n=5000
+infinity norm of crout residual: n =  1.192560e-18  =  0.0000000000000000011925602121896386090325  (not iterative)
+infinity norm of gauss residual: n =  1.140413e-18  =  0.0000000000000000011404134207456093402428  (72468524 iterations: error target reached )
+
+n=6000
+infinity norm of crout residual: n =  1.134284e-18  =  0.0000000000000000011342838355447653155264  (not iterative)
+infinity norm of gauss residual: n =  8.671987e-19  =  0.0000000000000000008671986609601492466696  (105396318 iterations: error target reached )
+
+n=7000
+infinity norm of crout residual: n =  1.070556e-18  =  0.0000000000000000010705555920846152227984  (not iterative)
+infinity norm of gauss residual: n =  1.066979e-18  =  0.0000000000000000010669794583172081619486  (142149539 iterations: error target reached )
+
+n=8000
+infinity norm of crout residual: n =  9.988430e-19  =  0.0000000000000000009988430469041782090553  (not iterative)
+

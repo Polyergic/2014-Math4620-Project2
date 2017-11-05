@@ -1,0 +1,31 @@
+
+n=10
+infinity norm of crout residual: n =  4.336809e-19  =  0.0000000000000000004336808689942017736030  (not iterative)
+infinity norm of gauss residual: n =  9.343912e-09  =  0.0000000093439122839087208744726816000981  (214 iterations)
+
+n=100
+infinity norm of crout residual: n =  7.260861e-19  =  0.0000000000000000007260861136043999828162  (not iterative)
+infinity norm of gauss residual: n =  9.996438e-09  =  0.0000000099964375605606528128098376679599  (13427 iterations)
+
+n=1000
+infinity norm of crout residual: n =  9.667931e-19  =  0.0000000000000000009667930887859394315557  (not iterative)
+infinity norm of gauss residual: n =  9.999953e-09  =  0.0000000099999532114715721231566552739814  (851657 iterations)
+
+n=10000
+infinity norm of crout residual: n =  1.100814e-18  =  0.0000000000000000011008138339393949859060  (not iterative)
+infinity norm of gauss residual: n =  1.655369e-07  =  0.0000001655368742748879360880666336167344  (10000000 iterations)
+
+1. Crout factorization has much smaller error for each n.
+2. As n increases, Crout factorization error increases very slowly,
+               but Gauss-Seidel iteration error gets to the same target
+3. As n increases, Gauss-Seidel iterations required increases very fast
+       - nearly 2 orders of magnitude for every order of magnitude of n.
+
+This is using the "fast" implementation of Gauss-Seidel, which is specific to this matrix A.
+On my computer, at n=1000, the slow (and more general) implementation takes over 5 hours,
+while the fast implementation takes less than 40 seconds.
+(The slow implementation is still in the code, but is not used.)
+The 10000000 iterations for n=10000 is the iteration limit, which is reached after about 1 hour;
+it does not reach the 10e-8 error target.
+
+
