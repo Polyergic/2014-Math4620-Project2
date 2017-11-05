@@ -1,1 +1,14 @@
-I thought I might be able to make it faster, and I did - combining the last two loops cut the n=10000 time down to under 40 minutes, a 25% or 30% improvement.  Just out of curiosity I started trying to get the Gauss-Seidel error to match the Crout error, and saw that several cases went to the maximum iteration count without getting there.  I added a stop condition when the solution stops changing, and added the reason for stoping to the return struct and the output, and there are several cases where Gauss-Seidel doesn't just take longer, it actually can't get as small an error at all.  I suspect it could get further with a higher precision float, but beating machine precision is very slow.  If I were going to keep at it, the next thing would be either to take advantage of multiple cores or to give a running progress indicator.  The attached output took about 21 hours, with the last line several hours before it stopped (which was when my computer crashed - I really like the MacOS terminal feature that restores the scrollback after a crash).
+I thought I might be able to make it faster, and I did - combining the last two
+loops cut the n=10000 time down to under 40 minutes, a 25% or 30% improvement.
+Just out of curiosity I started trying to get the Gauss-Seidel error to match
+the Crout error, and saw that several cases went to the maximum iteration count
+without getting there.  I added a stop condition when the solution stops
+changing, and added the reason for stoping to the return struct and the output,
+and there are several cases where Gauss-Seidel doesn't just take longer, it
+actually can't get as small an error at all.  I suspect it could get further
+with a higher precision float, but beating machine precision is very slow.  If I
+were going to keep at it, the next thing would be either to take advantage of
+multiple cores or to give a running progress indicator.  The attached output
+took about 21 hours, with the last line several hours before it stopped (which
+was when my computer crashed - I really like the MacOS terminal feature that
+restores the scrollback after a crash).
